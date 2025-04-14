@@ -2,8 +2,6 @@ package tech.ada.projetowebii.model;
 
 import jakarta.persistence.*;
 
-import java.time.LocalDateTime;
-
 @Entity
 @Table(name = "serie")
 public class Serie {
@@ -11,25 +9,22 @@ public class Serie {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
+
     private String titulo;
     private String genero;
     private int temporadas;
     private int anoLancamento;
 
-
     public Serie() {
     }
 
-    public Serie(Long id, String titulo, String genero, int temporadas, int anoLancamento,
-                 LocalDateTime dataCriacao, LocalDateTime dataAtualizacao) {
+    public Serie(Long id, String titulo, String genero, int temporadas, int anoLancamento) {
         this.id = id;
         this.titulo = titulo;
         this.genero = genero;
         this.temporadas = temporadas;
         this.anoLancamento = anoLancamento;
-
     }
-
 
     public Long getId() {
         return id;
@@ -70,5 +65,4 @@ public class Serie {
     public void setAnoLancamento(int anoLancamento) {
         this.anoLancamento = anoLancamento;
     }
-
 }
