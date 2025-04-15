@@ -10,7 +10,7 @@ import tech.ada.projetowebii.model.Serie;
 import tech.ada.projetowebii.service.CriarSerieService;
 
 @RestController
-@RequestMapping("/api/series")
+@RequestMapping("/series")
 
 public class SerieController {
 
