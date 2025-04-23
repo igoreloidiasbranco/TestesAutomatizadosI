@@ -2,8 +2,6 @@ package tech.ada.projetowebii.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import tech.ada.projetowebii.dto.AtualizarSerieDTO;
-import tech.ada.projetowebii.model.Serie;
 import tech.ada.projetowebii.repository.SeriesRepository;
 
 @Service
