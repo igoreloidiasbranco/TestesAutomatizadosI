@@ -1,10 +1,10 @@
-package tech.ada.projetowebii.service;
+package tech.ada.testesautomatizadosi.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import tech.ada.projetowebii.dto.AtualizarSerieDTO;
-import tech.ada.projetowebii.model.Serie;
-import tech.ada.projetowebii.repository.SeriesRepository;
+import tech.ada.testesautomatizadosi.dto.AtualizarSerieDTO;
+import tech.ada.testesautomatizadosi.model.Serie;
+import tech.ada.testesautomatizadosi.repository.SeriesRepository;
 
 @Service
 public class AtualizarSerieService {

@@ -1,8 +1,8 @@
-package tech.ada.projetowebii.service;
+package tech.ada.testesautomatizadosi.service;
 
 import org.springframework.stereotype.Service;
-import tech.ada.projetowebii.model.Serie;
-import tech.ada.projetowebii.repository.SeriesRepository;
+import tech.ada.testesautomatizadosi.model.Serie;
+import tech.ada.testesautomatizadosi.repository.SeriesRepository;
 
 @Service
 public class CriarSerieService {

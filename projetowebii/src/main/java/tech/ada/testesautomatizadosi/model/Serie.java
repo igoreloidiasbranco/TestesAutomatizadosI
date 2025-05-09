@@ -1,4 +1,4 @@
-package tech.ada.projetowebii.model;
+package tech.ada.testesautomatizadosi.model;
 
 import jakarta.persistence.*;
 

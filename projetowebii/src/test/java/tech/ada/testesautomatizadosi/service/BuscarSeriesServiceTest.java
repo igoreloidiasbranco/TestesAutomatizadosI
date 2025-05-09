@@ -1,14 +1,14 @@
-package tech.ada.projetowebii.service;
+package tech.ada.testesautomatizadosi.service;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.mockito.Mockito;
-import tech.ada.projetowebii.dto.SerieDTO;
-import tech.ada.projetowebii.exception.SerieNaoEncontradaException;
-import tech.ada.projetowebii.model.Serie;
-import tech.ada.projetowebii.repository.SeriesRepository;
+import tech.ada.testesautomatizadosi.dto.SerieDTO;
+import tech.ada.testesautomatizadosi.exception.SerieNaoEncontradaException;
+import tech.ada.testesautomatizadosi.model.Serie;
+import tech.ada.testesautomatizadosi.repository.SeriesRepository;
 
 import java.util.Collections;
 import java.util.List;

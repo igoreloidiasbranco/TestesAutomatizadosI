@@ -1,4 +1,4 @@
-package tech.ada.projetowebii.dto;
+package tech.ada.testesautomatizadosi.dto;
 
 public class SerieDTO {
 

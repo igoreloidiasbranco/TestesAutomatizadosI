@@ -1,7 +1,7 @@
-package tech.ada.projetowebii.dto.mapper;
+package tech.ada.testesautomatizadosi.dto.mapper;
 
-import tech.ada.projetowebii.dto.SerieDTO;
-import tech.ada.projetowebii.model.Serie;
+import tech.ada.testesautomatizadosi.dto.SerieDTO;
+import tech.ada.testesautomatizadosi.model.Serie;
 
 public class SerieMapper {
 

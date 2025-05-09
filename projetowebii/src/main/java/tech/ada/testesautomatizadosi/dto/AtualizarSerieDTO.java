@@ -1,4 +1,4 @@
-package tech.ada.projetowebii.dto;
+package tech.ada.testesautomatizadosi.dto;
 
 import jakarta.validation.constraints.*;
 

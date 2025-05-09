@@ -1,11 +1,11 @@
-package tech.ada.projetowebii.service;
+package tech.ada.testesautomatizadosi.service;
 
 import org.springframework.stereotype.Service;
-import tech.ada.projetowebii.dto.SerieDTO;
-import tech.ada.projetowebii.dto.mapper.SerieMapper;
-import tech.ada.projetowebii.exception.SerieNaoEncontradaException;
-import tech.ada.projetowebii.model.Serie;
-import tech.ada.projetowebii.repository.SeriesRepository;
+import tech.ada.testesautomatizadosi.dto.SerieDTO;
+import tech.ada.testesautomatizadosi.dto.mapper.SerieMapper;
+import tech.ada.testesautomatizadosi.exception.SerieNaoEncontradaException;
+import tech.ada.testesautomatizadosi.model.Serie;
+import tech.ada.testesautomatizadosi.repository.SeriesRepository;
 import java.util.List;
 import java.util.Optional;
 import java.util.stream.Collectors;

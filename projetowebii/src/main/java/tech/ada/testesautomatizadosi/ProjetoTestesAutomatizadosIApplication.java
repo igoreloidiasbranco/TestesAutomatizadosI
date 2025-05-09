@@ -1,13 +1,13 @@
-package tech.ada.projetowebii;
+package tech.ada.testesautomatizadosi;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class ProjetowebiiApplication {
+public class ProjetoTestesAutomatizadosIApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(ProjetowebiiApplication.class, args);
+		SpringApplication.run(ProjetoTestesAutomatizadosIApplication.class, args);
 	}
 
 }

@@ -1,4 +1,4 @@
-package tech.ada.projetowebii.exception;
+package tech.ada.testesautomatizadosi.exception;
 
 public class SerieNaoEncontradaException extends RuntimeException{
 

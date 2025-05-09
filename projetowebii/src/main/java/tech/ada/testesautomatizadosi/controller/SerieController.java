@@ -1,18 +1,18 @@
-package tech.ada.projetowebii.controller;
+package tech.ada.testesautomatizadosi.controller;
 
 import jakarta.validation.Valid;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-import tech.ada.projetowebii.dto.CriarSerieRequestDTO;
-import tech.ada.projetowebii.dto.AtualizarSerieDTO;
-import tech.ada.projetowebii.dto.SerieDTO;
-import tech.ada.projetowebii.dto.mapper.CriarSerieRequestMapper;
-import tech.ada.projetowebii.model.Serie;
-import tech.ada.projetowebii.service.AtualizarSerieService;
-import tech.ada.projetowebii.service.BuscarSeriesService;
-import tech.ada.projetowebii.service.CriarSerieService;
-import tech.ada.projetowebii.service.ExcluirSerieService;
+import tech.ada.testesautomatizadosi.dto.CriarSerieRequestDTO;
+import tech.ada.testesautomatizadosi.dto.AtualizarSerieDTO;
+import tech.ada.testesautomatizadosi.dto.SerieDTO;
+import tech.ada.testesautomatizadosi.dto.mapper.CriarSerieRequestMapper;
+import tech.ada.testesautomatizadosi.model.Serie;
+import tech.ada.testesautomatizadosi.service.AtualizarSerieService;
+import tech.ada.testesautomatizadosi.service.BuscarSeriesService;
+import tech.ada.testesautomatizadosi.service.CriarSerieService;
+import tech.ada.testesautomatizadosi.service.ExcluirSerieService;
 
 import java.util.List;
 
