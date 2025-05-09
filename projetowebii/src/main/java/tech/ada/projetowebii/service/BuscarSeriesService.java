@@ -27,7 +27,7 @@ public class BuscarSeriesService {
 
     public Serie buscarSeriePorId(Long id) {
         Optional<Serie> serieOptional = seriesRepository.findById(id);
-        return serieOptional.orElseThrow(() -> new SerieNaoEncontradaException("Série com ID " +
+        return serieOptional.orElseThrow(() -> new SerieNaoEncontradaException("Série com ID " + id +
                 " não encontrada"));
     }
 }
