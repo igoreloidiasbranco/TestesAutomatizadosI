@@ -57,7 +57,7 @@ class BuscarSeriesServiceTest {
 
     @Test
     @DisplayName("Deve retornar uma série buscando por Id com sucesso")
-    void buscarSeriePorId() {
+    void testeBuscarSeriePorId() {
         Serie serie1 = new Serie(1L, "Título1", "Gênero1", 1, 2021);
         Long id = 1L;
         Mockito.when(repository.findById(id)).thenReturn(Optional.of(serie1));
